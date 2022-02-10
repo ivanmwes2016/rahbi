@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap');
+
+.nav-bar{
+    /* background-color: aqua; */
+    height: 10rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    text-transform: uppercase;
+    padding:0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 4;
+    position:fixed;
+}
+
+.navbar-logo{
+  margin-right: 10px;
+}
+
+.nav-menu{
+  list-style: none;
+  margin-left: 5rem;
+
+}
+
+.nav-menu li {
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.nav-menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.LogoName{
+  font-weight:900;
+}
+
+.quotebutton{
+  width: 180px;
+  height: 35px;
+  border-radius: 20px;
+  border: solid 2px rgb(242, 145, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.quotebutton:hover{
+  width: 180px;
+  height: 35px;
+  border-radius: 20px;
+  border: solid 2px rgb(242, 145, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(228, 188, 247);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+
+.menu-icon{
+  visibility: hidden;
+}
+
+/* RESPONSIVE SECTION ===========================================================*/
+
+@media screen and (max-width:960px){
+
+  .nav-bar{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-transform: uppercase;
+    padding:0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.nav-menu{
+  background-color:rgb(255, 255, 255);
+  visibility: visible;
+  display: flex;
+  position: absolute;
+  width: 90%;
+  flex-direction: column;
+  margin: auto;
+  top: 140px;
+  padding: 10px;
+  border-radius: 20px;
+  left: -100%;
+  transition: all 0.5s ease;
+  opacity: 1;
+
+}
+
+.nav-menu.active{
+  list-style: none;
+  margin:auto;
+  background-color:rgb(255, 255, 255);
+  opacity: 1;
+  left: 15px;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  transition: all 0.5s ease;
+}
+
+.nav-menu li a {
+  display: inline-block;
+  padding: 10px 10px;
+  color: rgb(31, 1, 65);
+  width: 100%;
+  /* background-color: rgb(220, 191, 248); */
+}
+
+.nav-menu li a:hover {
+  display: inline-block;
+  padding: 10px 10px;
+  color: rgb(31, 1, 65);
+  background-color: rgb(220, 191, 248);
+  width: 100%;
+  margin: 0;
+  border-radius: 20px;
+  transition: all 0.5s ease-out;
+}
+
+
+.menu-icon{
+  visibility: visible;
+}
+
+
+.quotebutton{
+  width: 180px;
+  height: 35px;
+  border-radius: 20px;
+  border: solid 2px rgb(242, 145, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  visibility:hidden;
+}
+
+
+
+.bi{
+  font-size: 50px;
+  margin-right: 50px;
+}
+  
+}
+
