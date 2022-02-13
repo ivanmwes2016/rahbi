@@ -14,7 +14,7 @@ const courasel = () => {
                 {data.map((item, index) => {
                     return(
                         <div className="info-wrapper" key={index}>
-                            <div>{item.bigtexts}</div>
+                            <div className={item.cName}>{item.bigtexts}</div>
                             <div className="carr-btn"><button className="quotebutton">Make a Consultation</button></div>
                         </div>
                     )

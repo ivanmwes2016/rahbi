@@ -21,7 +21,7 @@ import Logo from '../../images/Rhabi.png'
     render(){
         return(
             <nav className='nav-bar'>
-                <div><img src={Logo} height="100" width="100" className="navbar-logo" /></div>
+                <div><img src={Logo} className="navbar-logo" /></div>
                 <div className="LogoName">RHABI SECURITY</div>
              
 

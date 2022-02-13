@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700;900&display=swap');
 
 .nav-bar{
-    /* background-color: aqua; */
+    background-color: rgba(30, 0, 34, 0.5);
     height: 10rem;
     width: 100%;
     display: flex;
@@ -20,6 +20,7 @@
 
 .navbar-logo{
   margin-right: 10px;
+  width: 5rem;
 }
 
 .nav-menu{
@@ -36,6 +37,14 @@
 .nav-menu a{
   color: white;
   text-decoration: none;
+
+  
+}
+
+.nav-menu a:hover{
+  color: #FC8F00;
+  border-bottom: #FC8F00 solid 1px;
+  transition: all 0.8s ease;
 }
 
 .LogoName{
@@ -86,16 +95,20 @@
   .nav-bar{
     /* background-color: aqua; */
     width: 100%;
+    height: 7rem;
     display: flex;
     justify-content: center;
     color: rgb(255, 255, 255);
     align-items: center;
     text-transform: uppercase;
     padding:0;
-    margin: 0;
+    margin-top: 40px;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: bold;
+    position: fixed;
+    z-index: 4;
+    
 }
 
 
@@ -107,12 +120,13 @@
   width: 90%;
   flex-direction: column;
   margin: auto;
-  top: 140px;
   padding: 10px;
+  top: 140px;
   border-radius: 20px;
   left: -100%;
   transition: all 0.5s ease;
   opacity: 1;
+  
 
 }
 
@@ -122,6 +136,7 @@
   background-color:rgb(255, 255, 255);
   opacity: 1;
   left: 15px;
+  top: 140px;
   display: flex;
   position: absolute;
   z-index: 2;
@@ -168,6 +183,8 @@
   cursor: pointer;
   visibility:hidden;
 }
+
+
 
 
 
