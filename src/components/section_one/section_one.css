@@ -1,0 +1,35 @@
+.SectionOne{
+    width: 100%;
+    height: 300px;
+    background-color: aquamarine;
+}
+.SectionOne_Image_Container{
+    width: 100%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 217, 255);
+    
+}
+
+.icon-container{
+    width: 120px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    
+}
+
+.Image-Icons{
+    max-width: 50px;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.icon-container p{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
