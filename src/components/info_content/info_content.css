@@ -1,0 +1,32 @@
+.LeftHandContent{
+    font-size: 40px;
+    font-weight: 900;
+    width: 600px;
+}
+
+.LeftHandContent p{
+    font-size: 20px;
+    font-weight: normal;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.RightHandContent{
+    width: 500px;
+    
+}
+
+.RightHandContent img{
+    width: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.content_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+ 
+}

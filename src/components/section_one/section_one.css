@@ -1,7 +1,8 @@
 .SectionOne{
     width: 100%;
-    height: 300px;
-    background-color: aquamarine;
+    height: 500px;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: aquamarine; */
 }
 .SectionOne_Image_Container{
     width: 100%;
@@ -15,7 +16,6 @@
 
 .icon-container{
     width: 120px;
-    font-family: 'Montserrat', sans-serif;
     padding: 15px;
     
 }
@@ -32,4 +32,142 @@
     font-weight: bold;
     padding: 0;
     margin: 0;
+}
+
+
+.ServiceText{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.ServiceText h1{
+    font-size: 40px;
+    font-weight: 900;
+    width: 60%;
+    color: rgb(77, 77, 77);
+}
+
+.ServiceText p{
+    font-size: 30px;
+    font-weight: 100;
+    width: 80%;
+    color: rgb(46, 0, 99);
+    margin: 0;
+}
+
+.Info_Card_Wrapper{
+    width: 100%;
+    height: 350px;
+    /* background-color: cadetblue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    color: rgb(46, 0, 99);
+    
+}
+
+.Card-Holder{
+    width: 400px;
+    height: 200px;
+    background-color:white;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+}
+
+
+.Card-Holder.active{
+    width: 400px;
+    height: 150px;
+    background-color:white;
+    border-radius: 14px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+}
+
+
+
+.Card-Icon{
+
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.Card-Icon img{
+    width: 360px;
+}
+
+
+
+.Card-Name{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LinkName{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* background-color: cornflowerblue; */
+    font-size: 14px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LinkName a{
+    cursor: pointer;
+    text-decoration: none;
+    margin-right:10px;
+}
+
+.LinkName a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    margin-right:10px;
+    color: rgb(241, 113, 0);
+    transition: all 0.5s ease-in-out;
+}
+
+
+.content-wrapper{
+    width: 100%;
+    background-color: rgba(112, 128, 144, 0.15);
+    height: 500px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.content-wrapper-white{
+    width: 100%;
+    /* background-color: rgba(112, 128, 144, 0.15); */
+    height: 500px;
+    overflow: hidden;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
 }

@@ -1,16 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
-import Courasel from './components/carousel/courasel'
-import TopNavigation from './components/top_nav/TopNavigation'
-import SectionOne from './components/section_one/section_one'
+import Home from './pages/homapage'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 function App() {
   return (
     <div className="App">
-    <TopNavigation />
-      <Courasel />
-      <SectionOne />
+    <Home />
+
+
     </div>
   );
 }
