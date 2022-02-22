@@ -1,0 +1,158 @@
+
+.about{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color: rgb(209, 209, 209);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top_data{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.left{
+    width:100%;
+    background-color: rgb(76, 0, 128);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftV2{
+    width:100%;
+    overflow: hidden;
+    background :url('../../images/pexels-mathias-pr-reding-9301020.jpg') repeat fixed 100%;
+    background-size: 700px;
+    background-position: 30px;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.left p{
+    font-size: 30px;
+    width: 70%;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.right{
+    width:100%;
+    overflow: hidden;
+    background :url('../../images/pexels-guillaume-meurice-2815025.jpg') repeat fixed 100%;
+    background-size: 600px;
+}
+
+.rightV2{
+
+    width:100%;
+    background-color: rgb(76, 0, 128);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rightV2 p{
+    font-size: 20px;
+    width: 70%;
+    line-height: 40px;
+}
+
+
+
+.image{
+    width: 400px;
+    height: 400px;
+}
+
+
+.midde_section{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.contentHolder{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.title{
+    width: 100%;
+    background-color: rgb(245, 79, 162);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-column: span 1;
+}
+
+.title p{
+    transform: rotate(-90deg);
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+}
+
+.dataContainer{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-column: span 3;
+}
+
+.empty{
+    background-color: tomato;
+    width: 100%;
+    grid-column: span 1;
+}
+
+.dataContainer p{
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.AccredHolder{
+    width: 100%;
+    background: url("../../images/pexels-kaique-rocha-116021.jpg") fixed;
+    background-size: 150%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.AccredTitle{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+}
+.AccredHolder p{
+    font-size: 20px;
+    width: 70%;
+    list-style: 40px;
+}

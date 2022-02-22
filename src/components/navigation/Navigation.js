@@ -28,8 +28,8 @@ import Logo from '../../images/Rhabi.png'
 
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
     
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>About</a></li>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='about-us'>About</a></li>
                     <li><a href='#'>Services</a></li>
                     <li><a href='#'>Vacancies</a></li>
                     <li><a href='#'>Contact</a></li>
