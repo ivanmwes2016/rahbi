@@ -1,3 +1,4 @@
+import CCTV from '../../images/CCTV.jpeg'
 const data ={
 
     'Stitle':'Security Guards & Officers',
@@ -11,8 +12,13 @@ const data ={
     'S3body':"Being able to handle customer enquiries at a professional level is requirement for any business. Rahbi Security understands and take that very seriously. The need for a concierge who is professionally trained is a covered by our concierge and reception security guards who are well versed with the hospitality and corporate security management.We ensure first class customer reception services and security are provided to your business.",
     
     'S4title': "CCTV Installation and Monitoring Services",
-    'S4body1': "Rahbi security will install CCTV solutions that monitored by our licenced SIA guards to ensure that you have; Reliable Security for 24/7 Protection, Highly Trained SIA Licensed Security and Rapid Response Rate to Alarms and Disturbances"
+    'S4body1': "Rahbi security will install CCTV solutions that monitored by our licenced SIA guards to ensure that you have; Reliable Security for 24/7 Protection, Highly Trained SIA Licensed Security and Rapid Response Rate to Alarms and Disturbances",
     
+    'S4title2': "CCTV Installation",
+    'S4body2': "For timely response and quality services, Rahbi security has well trained technicians to install a state-of-the-art security system that can help deter thieves, intruders, and trespassers. We offer CCTV solutions that are tailored to fit your needs. Emphasis is put on providing you 24 hours support",
+
+    'S4title3': "CCTV Monitoring",
+    'S4body3': "Our SIA licenced guards will monitor your business or property to ensure that you receive a quick and time response to deal with any criminal activities or trespasser son you property of business.",
 }
 
 

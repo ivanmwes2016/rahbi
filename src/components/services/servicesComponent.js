@@ -14,7 +14,7 @@ const ServicesComponent =() => {
 
     return(
         <div className="serviceContainer">
-        <div className="topArea">Rahbi Services</div>
+        <div className="topArea"></div>
         <div className="sectionOneContainer">
             <SectionOne  {...Data}/>
             <SectionTwo {...Data} />
