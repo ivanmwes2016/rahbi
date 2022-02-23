@@ -5,6 +5,7 @@ import AboutPage from './pages/about'
 import TopNavigation from './components/navigation/Navigation'
 import Footer from './components/footer/footer'
 import {BrowserRouter, Routes, Route, Switch} from 'react-router-dom'
+import Services from './pages/services'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutPage />} />
+        <Route path="/services" element={<Services />} />
       
       </Routes>
     </BrowserRouter>
