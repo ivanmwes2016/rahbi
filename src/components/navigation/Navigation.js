@@ -32,7 +32,7 @@ import Logo from '../../images/Rhabi.png'
                     <li><a href='about-us'>About</a></li>
                     <li><a href='services'>Services</a></li>
                     <li><a href='#'>Vacancies</a></li>
-                    <li><a href='#'>Contact</a></li>
+                    <li><a href='contact'>Contact</a></li>
 
                 </ul>
 

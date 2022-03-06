@@ -24,7 +24,7 @@ export default class Footer extends Component {
                         
                     );
                 })}
-                <button className="quotebutton">Member Area</button>
+                <button className="quotebutton"><a href="https://rahbisecurity.co.uk:2096">Member Area</a></button>
                 </div>
 
 
@@ -35,7 +35,7 @@ export default class Footer extends Component {
                             <div>
                                 <div key={index}>
                                     <ul className="footerList-ul">
-                                        <li><a>{item.socialName}</a></li>
+                                        <li><a href={item.url}>{item.socialName}</a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -66,7 +66,7 @@ class SectionOne extends Component{
                                 <div className={this.state.mouseover ? "Card-Holder" : " Card-Holder active"} key={index} >
                                     <div className="Card-Icon"><img src={item.ImageUrl}></img></div>
                                     <div className="Card-Name">{item.name}</div>
-                                    <div className="LinkName"> <a>{item.LinkName} <span><i class="bi bi-arrow-right-circle-fill"></i></span></a></div>
+                                    <div className="LinkName"> <a href={item.URl}>{item.LinkName} <span><i class="bi bi-arrow-right-circle-fill"></i></span></a></div>
                                 </div>
     
     

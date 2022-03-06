@@ -6,6 +6,7 @@ import TopNavigation from './components/navigation/Navigation'
 import Footer from './components/footer/footer'
 import {BrowserRouter, Routes, Route, Switch} from 'react-router-dom'
 import Services from './pages/services'
+import Contact from './pages/contact'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutPage />} />
         <Route path="/services" element={<Services />} />
+        <Route path ="/contact" element ={<Contact />} />
       
       </Routes>
     </BrowserRouter>

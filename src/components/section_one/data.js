@@ -6,21 +6,21 @@ const CardData =[
         'name': 'Security Guards and Officers',
         'ImageUrl': `${SecurityImage}`,
         'LinkName': 'More Info',
-        'URl': 'url'
+        'URl': `${'/services'}`
     },
 
     {
         'name': 'CCTV installation and surveillance',
         'ImageUrl': `${CCTVImage}`,
         'LinkName': 'More Info',
-        'URl': 'url'
+        'URl': `${'/services'}`
     },
 
     {
         'name': 'Facilities management',
         'ImageUrl': `${facilityImage}`,
         'LinkName': 'More Info',
-        'URl': 'url'
+        'URl': `${'/services'}`
     },
 ]
 

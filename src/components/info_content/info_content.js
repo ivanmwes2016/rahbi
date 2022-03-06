@@ -1,9 +1,7 @@
 import React from 'react'
 import './info_content.css'
 
-const Hello = () =>{
-    alert("Hello")
-}
+
 
 const InfoContent = ({title, data, imageURL, link}) => {
 
@@ -11,7 +9,7 @@ const InfoContent = ({title, data, imageURL, link}) => {
         <div className='content_container'>
             <div className="LeftHandContent">
             {title} <p>{data}</p>
-            <button className="quotebutton-dark" onClick={Hello}>More Information<span> <i class="bi bi-arrow-right-circle-fill"></i></span> </button>
+            <button className="quotebutton-dark"><a className="a-ref" href="/about-us">More Information<span> <i class="bi bi-arrow-right-circle-fill"></i></span></a> </button>
             </div>
             
             <div className="RightHandContent"><img src={imageURL}/></div>

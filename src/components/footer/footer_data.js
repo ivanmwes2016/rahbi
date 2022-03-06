@@ -19,38 +19,38 @@ const FooterData = [
 
     {
         'socialName': 'Instagram',
-        'url': 'uiopojk'
+        'url': `${`https://www.instagram.com`}`
     },
 
     {
         'socialName': 'Twitter',
-        'url': '#'
+        'url': 'https://www.twitter.com'
     },
 
     {
         'socialName': 'Facebook',
-        'url': '#'
+        'url': 'https://www.facebook.com'
     },
 
 
     {
         'serviceName': 'Security Guards and Officers',
-        'url': 'https://www.google.co.uk'
+        'url': 'https://www.rahsbisecurity/services'
     },
 
     {
         'serviceName': 'CCTV installation and surveillance',
-        'url': 'https://www.google.co.uk'
+        'url': 'https://www.rahsbisecurity/services'
     },
 
     {
         'serviceName': 'Facilities management',
-        'url': 'https://www.google.co.uk'
+        'url': 'https://www.rahsbisecurity/about-us'
     },
 
     {
         'serviceName': 'About us',
-        'url': 'https://www.google.co.uk'
+        'url': 'https://www.rahsbisecurity/about-us'
     },
 
     {
