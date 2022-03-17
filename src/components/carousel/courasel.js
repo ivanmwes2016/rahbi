@@ -15,7 +15,7 @@ const courasel = () => {
                     return(
                         <div className="info-wrapper" key={index}>
                             <div className={item.cName}>{item.bigtexts}</div>
-                            <div className="carr-btn"><button className="quotebutton">Make a Consultation</button></div>
+                            <div className="carr-btn"><button className="quotebutton"> <a href='contact'>Make a Consultation</a></button></div>
                         </div>
                     )
 
