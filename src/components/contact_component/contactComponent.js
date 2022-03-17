@@ -24,7 +24,7 @@ function ContactComponent() {
         // console.log(details)
 
 
-        let response = await fetch("https://rahbi.herokuapp.com", {
+        let response = await fetch("https://rahbi.herokuapp.com/access", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json;charset=utf-8',
@@ -40,8 +40,6 @@ function ContactComponent() {
         } else if (result.status === 'fail') {
             setshowResults(false)
         }
-
-
     }
 
     return (

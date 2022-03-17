@@ -35,22 +35,22 @@ const FooterData = [
 
     {
         'serviceName': 'Security Guards and Officers',
-        'url': 'https://www.rahsbisecurity/services'
+        'url': 'services'
     },
 
     {
         'serviceName': 'CCTV installation and surveillance',
-        'url': 'https://www.rahsbisecurity/services'
+        'url': 'services'
     },
 
     {
         'serviceName': 'Facilities management',
-        'url': 'https://www.rahsbisecurity/about-us'
+        'url': 'about-us'
     },
 
     {
         'serviceName': 'About us',
-        'url': 'https://www.rahsbisecurity/about-us'
+        'url': 'about-us'
     },
 
     {

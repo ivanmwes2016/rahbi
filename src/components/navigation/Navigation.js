@@ -39,7 +39,7 @@ import Logo from '../../images/Rhabi.png'
                
 
     
-                <button className="quotebutton">Request a Quote</button>
+                <button className="quotebutton"><a href='contact'>Request a Quote</a></button>
 
                 <div className="menu-icon" onClick={this.handleClick}>
                 <i className={this.state.clicked ? 'bi bi-x-lg' : 'bi bi-list'}></i>
